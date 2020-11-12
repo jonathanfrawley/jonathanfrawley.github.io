@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "[Paper] Segmentation of Macular Edema Datasets with Small Residual 3D U-Net Architectures"
 date:   2020-11-12 11:19:16 +0000
 categories: edema AI deep learning
