@@ -13,7 +13,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Jonathan Frawley"
 title_separator          : "-"
-subtitle                 : "PhD Researcher and RSE"
+subtitle                 : "PhD Candidate and RSE"
 name                     : &name "Jonathan Frawley" # &name is a YAML anchor which can be *referenced later
 description              : &description "My personal blog"
 url                      : "https://jonathanfrawley.github.io"
@@ -80,8 +80,8 @@ social:
 author:
   name             : *name
   #avatar           : "/assets/images/jonathan_frawley.jpg"
-  bio              : "PhD researcher in machine learning and Research Software Engineer"
-  location         : "Durham, UK"
+  bio              : "PhD candidate in machine learning and Research Software Engineer"
+  location         : "Durham University, UK"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -166,7 +166,7 @@ collections:
   pets:
     output: true
     permalink: /:collection/:path/
-  papers:
+  publications:
     output: true
     permalink: /:collection/:path/
 
@@ -191,10 +191,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _papers
+  # _publications
   - scope:
       path: ""
-      type: papers
+      type: publications
     values:
       layout: single
       author_profile: true
